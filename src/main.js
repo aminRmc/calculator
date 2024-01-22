@@ -40,4 +40,3 @@ clear.addEventListener('click', ()=>{    // clear screen
     num = ``
 
 })
-
