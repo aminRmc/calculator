@@ -1,0 +1,208 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./public/GBMDESERT1.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+section{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 350px;
+    flex-wrap: wrap;
+    background: #65a98e;
+    padding-left: 20px;
+    position: relative;
+    box-shadow: -20px 20px 5px 20px #497659;
+}
+#eyes1{
+    height: 35px;
+    width: 20px;
+    background: rgba(62,121,37,255);
+    position: absolute;
+    border-radius: 25px;
+    left: 125px;
+    top: 50px;
+}
+#eyes2{
+    height: 35px;
+    width: 20px;
+    background: rgba(62,121,37,255);
+    position: absolute;
+    border-radius: 25px;
+    right: 100px;
+    top: 50px;
+}
+#ecran{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 38%;
+    width: 100%;
+    
+}
+#calc{
+   
+    height: 100%;
+    width: 90%;
+    background:     #fffedf;
+    border: none;
+    box-shadow: -4px 4px 7px 9px #5f9d6f;
+    display: flex;
+    font-size: 50px;
+    color: #448833;
+    transition: 2s;
+    
+    
+}
+
+#number{
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 150px;
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+    gap: 5px;
+}
+.number{
+   font-size: 35px;
+   border: solid 5px #d2bf24 ;
+   border-radius:5px ;
+   background: #fdcd1e;
+}
+
+
+#operation{
+    position: absolute;
+    bottom: 100px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.operation{
+    z-index: 4;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background: #e50656;
+
+
+}
+#one{
+    width: 51%;
+}
+#two{
+    width: 45%;
+}
+#tree{
+    width: 45%;
+}
+#fore{
+    width: 51%;
+}
+
+
+#deco{
+    height: 20px;
+    width: 200px;
+    background: black;
+    border-radius: 10px;
+    position: absolute;
+    top: 280px;
+    left: 20px;
+
+}
+#btnEgal{
+    z-index: 4;
+    position: absolute;
+    top: 280px;
+    right: 50px;
+}
+
+#egal{
+    z-index: 4;
+    font-size: 50px;
+    width: 65px;
+    border-radius: 20px;
+    background: #89ee10;
+    border: solid 5px #539d4e;
+}
+
+#C{
+    z-index: 4;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    
+}
+
+#clear{
+    z-index: 4;
+    font-size: 25px;
+    border-radius: 10px;
+    background: #4182ad;
+    color: white;
+}
+
+
+input[type = button]:hover {
+      
+    transform: translate(0, 1px);
+  }
+  input[type = button]:active {
+    
+    transform: translate(0em, 0.1em);
+   
+  }
+
+
+img{
+    position: absolute;
+}
+
+#img1{
+    z-index: 3;
+    top: -100px;
+    left: 170px;
+    height: 800px;
+}
+
+#img2{
+    z-index: 3;
+    top: -100px;
+    right: 246px;
+    height: 800px;
+}
+
+#img3{
+    z-index: 3;
+    top: 140px;
+    left: 280px;
+    height: 800px;
+}
+
+#img4{
+    z-index: 3;
+    top: 190px;
+    left: 220px;
+    height: 750px;
+}
